@@ -22,10 +22,8 @@ La séparation en fichiers distincts a été faite uniquement pour permettre la 
 ---
 
 2. Lancer l'application
-   ```bash
-streamlit run app.py
 
----
+streamlit run app.py
 
 
 Merci pour votre compréhension.
