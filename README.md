@@ -18,11 +18,13 @@ La séparation en fichiers distincts a été faite uniquement pour permettre la 
 1. Installer les dépendances :
    ```bash
    pip install -r requirements.txt
+
 ---
 
 2. Lancer l'application
    ```bash
 streamlit run app.py
+
 ---
 
 
