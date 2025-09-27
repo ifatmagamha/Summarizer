@@ -1,19 +1,17 @@
-Bonjour Mme, 
+# Bonjour Mme,
 
-Le contenu des fichiers (train.py, model.py, utils.py, app.py) est le même que le notebook Colab.
+Le contenu des fichiers (`train.py`, `model.py`, `utils.py`, `app.py`) est le même que le notebook Colab.
 
-La séparation en fichiers distincts a été faite uniquement pour permettre la création d’une interface Streamlit et tester le résumé automatique de manière interactive.
+La séparation en fichiers distincts a été faite uniquement pour permettre la création d’une interface **Streamlit** et tester le résumé automatique de manière interactive.
 
-Contenu du dossier :
+## Contenu du dossier
 
-train.py : entraînement du modèle RNN + attention et sauvegarde du vocabulaire et des poids dans saved_models/.
+- **train.py** : entraînement du modèle RNN + attention et sauvegarde du vocabulaire et des poids dans `saved_models/`.
+- **model.py** : définitions des classes `EncoderRNN` et `SentenceSelector`.
+- **utils.py** : fonctions utilitaires pour le prétraitement, la tokenization, TF-IDF, encodage/décodage.
+- **app.py** : interface Streamlit pour tester le résumé automatique.
+- **saved_models/** : modèles et vocabulaire sauvegardés après exécution de `train.py`.
 
-model.py : définitions des classes EncoderRNN et SentenceSelector.
-
-utils.py : fonctions utilitaires pour le prétraitement, la tokenization, TF-IDF, encodage/décodage.
-
-app.py : interface Streamlit pour tester le résumé automatique.
-
-saved_models/ : modèles et vocabulaire sauvegardés après exécution de train.py.
+---
 
 Merci pour votre compréhension.
