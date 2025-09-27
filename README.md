@@ -12,6 +12,17 @@ La séparation en fichiers distincts a été faite uniquement pour permettre la 
 - **app.py** : interface Streamlit pour tester le résumé automatique.
 - **saved_models/** : modèles et vocabulaire sauvegardés après exécution de `train.py`.
 
+
+## Instructions pour lancer l'application
+
+1. Installer les dépendances :
+   ```bash
+   pip install -r requirements.txt
+
 ---
+2. Lancer l'application
+
+streamlit run app.py
+
 
 Merci pour votre compréhension.

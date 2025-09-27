@@ -101,5 +101,5 @@ torch.save(decoder.state_dict(), "saved_models/decoder.pth")
 with open("saved_models/vocab.json", "w") as f:
     json.dump({"word2idx": word2idx, "idx2word": idx2word}, f)
 
-print("✅ Modèle et vocab sauvegardés dans saved_models/")
+print(" Modèle et vocab sauvegardés dans saved_models/")
     
