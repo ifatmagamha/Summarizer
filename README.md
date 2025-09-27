@@ -15,15 +15,13 @@ La séparation en fichiers distincts a été faite uniquement pour permettre la 
 
 ## Instructions pour lancer l'application
 
-1. Installer les dépendances :
-   ```bash
-   pip install -r requirements.txt
-
----
-
+1. Installer les dépendances 
 2. Lancer l'application
 
-streamlit run app.py
+   ```bash
+   pip install -r requirements.txt
+   streamlit run app.py
+---
 
 
 Merci pour votre compréhension.
