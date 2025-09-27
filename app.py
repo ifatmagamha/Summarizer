@@ -10,6 +10,7 @@ from model import EncoderRNN, SentenceSelector
 # -------------------
 # 1. Chargement du vocabulaire et du modèle
 # -------------------
+
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 def load_model_and_vocab():
